@@ -22,5 +22,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEMESIS-WX/mindbend2023.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NEMESIS-WX/mindbend2023/issues"
+  },
+  "homepage": "https://github.com/NEMESIS-WX/mindbend2023#readme"
 }
