@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo
+    command: mongod --port 27017
+
+  game_app:
+    image: game
+    network_mode: "host"
+    command: npm start --port 8080 --dbhost mongodb:27017
+    restart: always
