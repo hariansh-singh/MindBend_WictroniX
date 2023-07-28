@@ -9,4 +9,4 @@ Comands:
 - docker stack deploy -c docker-compose.yaml mindbend  (It will deploy the web on public_IP:2377 of Master-Swarm)
 - docker node ls                                       (To check the Swarm Manager and worker nodes)
 - docker service ls                                    (To check initiated services on docker swarm)
-- docker service rm <servic_name>                      (To stop the service)
+- docker service rm <service_name>                      (To stop the service)
